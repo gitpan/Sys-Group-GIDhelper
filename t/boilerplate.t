@@ -48,7 +48,7 @@ TODO: {
     "placeholder date/time"       => qr(Date/time)
   );
 
-  module_boilerplate_ok('lib/Sys/User/GIDhelper.pm');
+  module_boilerplate_ok('lib/Sys/Group/GIDhelper.pm');
 
 
 }

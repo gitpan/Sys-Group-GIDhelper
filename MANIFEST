@@ -2,7 +2,7 @@ Changes
 MANIFEST
 Makefile.PL
 README
-lib/Sys/User/GIDhelper.pm
+lib/Sys/Group/GIDhelper.pm
 t/00-load.t
 t/pod-coverage.t
 t/pod.t

@@ -3,7 +3,7 @@
 use Test::More tests => 1;
 
 BEGIN {
-	use_ok( 'Sys::User::GIDhelper' );
+	use_ok( 'Sys::Group::GIDhelper' );
 }
 
-diag( "Testing Sys::User::GIDhelper $Sys::User::GIDhelper::VERSION, Perl $], $^X" );
+diag( "Testing Sys::Group::GIDhelper $Sys::Group::GIDhelper::VERSION, Perl $], $^X" );
