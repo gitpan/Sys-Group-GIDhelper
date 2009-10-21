@@ -9,11 +9,11 @@ Sys::Group::GIDhelper - Helps for locating free GIDs.
 
 =head1 VERSION
 
-Version 0.0.1
+Version 0.0.2
 
 =cut
 
-our $VERSION = '0.0.1x';
+our $VERSION = '0.0.2';
 
 
 =head1 SYNOPSIS
@@ -79,7 +79,7 @@ sub new {
 	#new groups
 	$self->{min}=1000;
 	if (defined($args{min})) {
-		$self->{max}=$args{min};
+		$self->{min}=$args{min};
 	}
 
 	return $self;
